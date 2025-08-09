@@ -16,10 +16,8 @@ int main(){
 	for(int i = 0; i < a; i++){
 		for(int j = 0; j < ceil((b[i][1] - b[i][0] + 1)/2); j++){
 			if(s[b[i][0] + j] == s[b[i][1] - j]){
-				// cout << "true";
 				z = 1;
 			}else{
-				// cout << "false";
 				z = 0;
 				break;
 			}
